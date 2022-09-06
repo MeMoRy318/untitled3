@@ -1,0 +1,23 @@
+.searc_input{
+    border-color: transparent;
+    width: 350px;
+    height: 35px;
+    background-color: #333;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.test{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search_btn{
+    background: #181818;
+    border: #181818;
+}
+.form_searc{
+    align-items: center;
+    display: flex;
+}

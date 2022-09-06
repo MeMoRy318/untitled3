@@ -1,0 +1,38 @@
+.movie_wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.movi_block{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 40px;
+}
+.Button_btn__uFTPv {
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: white;
+    font-weight: 500;
+    padding: 13px 15px;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #025483;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease;
+}
+.btn_sy_all{
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}

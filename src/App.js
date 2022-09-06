@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Navigate, Route, Routes} from "react-router-dom";
+
+import {MaLayots} from "./layots";
+import {FavoritePage, LoginFormPage, MovieInfoPage, MovieListPage, MoviePage} from "./pages";
+import {MoviesFilterList, RegisteForm} from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Routes>
+            <Route path={"/"} element={<MaLayots/>}>
+                <Route index element={<Navigate to={"movieList"}/>}/>
+                <Route path={"login"} element={<LoginFormPage/>}/>
+                <Route path={"register"} element={<RegisteForm/>}/>
+                <Route path={"movieList"} element={<MovieListPage/>}/>
+                <Route path={"movie"} element={<MoviePage/>}>
+                    <Route path={"favorite"} element={<FavoritePage/>}/>
+                    <Route path={':film/:with_genres/:primary_release_year/:sort_by'} element={<MoviesFilterList/>}/>
+                </Route>
+                <Route path={'moviInfo/:id'} element={<MovieInfoPage/>}/>
+            </Route>
+        </Routes>
   );
 }
 

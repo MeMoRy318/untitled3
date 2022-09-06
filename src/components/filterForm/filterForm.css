@@ -1,0 +1,113 @@
+.filter_vote{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+    column-gap: 5px;
+}
+.wrap_filter_form{
+    width: 20%;
+    background: white;
+    padding-left: 2%;
+}
+.h2_reyting{
+    margin-top: 15%;
+    margin-bottom: -5px;
+}
+.TextField_textField__Tqze_ {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.primary_release_year{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 60%;
+}
+.with_genres{
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*appearance: none;*/
+    outline: none;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 17px;
+    width: 71%;
+    margin-bottom: 20px;
+}
+.Radio_input__rfCBC {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.Button_btn_uFTPv{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: white;
+    font-weight: 500;
+    padding: 13px 15px;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #045584;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 40px;
+
+}
+.Button_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color:#045584 ;
+    font-weight: 500;
+    padding: 13px 15px;
+    font-size: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px #045584 solid;
+    background-color: white;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.Button_btn:hover {
+    background-color:#045584 ;
+    color: white;
+
+}
+.Button_btn_uFTPv:hover {
+    background-color:white ;
+    color: #045584;
+    border: 1px #045584 solid;
+}
+.radio_block{
+    margin-top: 15px;
+}

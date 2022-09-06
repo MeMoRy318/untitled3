@@ -1,0 +1,5 @@
+export * from "./loginFormPage/LoginFormPage"
+export * from "./movieListPage/MovieListPage"
+export * from "./moviePage/MoviePage"
+export * from "./favoritePage/FavoritePage"
+export * from "./movieInfoPage/MovieInfoPage"

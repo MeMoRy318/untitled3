@@ -1,0 +1,5 @@
+export * from "./store"
+export * from "./slices/movie.slice"
+export * from "./slices/ganres.slices"
+export * from "./slices/tv.slice"
+export * from "./slices/login.slice"
